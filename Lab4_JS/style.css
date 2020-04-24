@@ -1,0 +1,138 @@
+.bod{
+    padding: 0; 
+    margin: 0;
+    background-color: #333333;
+}
+
+.head{
+    background-color: #000033;
+    height: 140px;
+    display: flex;
+}
+
+p{
+    font-size: 30px;
+    color: #FF6633;
+    word-break: break-word;
+    white-space: nowrap;
+    padding-right: 60%;
+    padding-left: 6%;
+    margin: auto;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,monospace, serif;
+}
+
+.title{
+    color: #FFFFFF;
+    text-shadow: #CCCCCC  1px 1px 2px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+.mainpart{
+    margin-top: 10px;
+    width: max-content;
+    height: 540px;
+    background-color: #FFCC99;
+    justify-content: space-around;
+    border-radius: 4px;
+    padding: 1px;
+    box-shadow: #996633 1px 1px 4px;
+}
+
+.line{
+    padding: 0; 
+    margin: 0;
+}
+
+.item{
+    padding-left: 20px;
+    display: table-row;
+}
+
+h1{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: #666666  1px 1px 2px;
+    display: table-cell;
+    padding-left: 30%;
+    padding-right: 35%;
+    padding-bottom: 5%;
+}
+
+h2{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: #666666  1px 1px 2px;
+    display: table-cell;
+    padding: 13px;
+}
+
+input{
+    display: table-cell;
+}
+
+.tableform{
+    display: table; 
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+.tabs{
+    display: table-cell;
+}
+
+.buttons{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: #FF6633;
+    text-shadow: #FF6633  1px 1px 2px;
+    background-color: #FFCC99;
+    width: 150px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #FF6633;
+
+}
+
+.role{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: #666666  1px 1px 2px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.texts{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    border: 1px solid #ffffff;
+    background-color: #FFCC99;
+    height: 16px;
+    width: 100%;
+}
+
+input[type=text]:focus {
+    background-color: #ffffff;
+}
+
+input[type=password]:focus {
+    background-color: #ffffff;
+}
+
+input[type=tel]:focus {
+    background-color: #ffffff;
+}
+
+button:hover{
+    background-color: #FF6633;
+    color: #ffffff;
+}
+
+.star{
+    color: #CC0000;
+    font-size: 15px;
+}
