@@ -86,12 +86,11 @@ input{
     background-color: #FFCC99;
     width: 150px;
     height: 35px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 20px;
     font-size: 18px;
     border-radius: 5px;
     border: 2px solid #FF6633;
-
 }
 
 .role{

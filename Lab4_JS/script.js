@@ -48,7 +48,6 @@ function resetLines(){
 }
 
 function send(){
-    console.log(name.value);
     if ((sur.value == "") || (name.value == "") || (secName.value == "") || (pass.value == "")){
         alert("Не все необходимые поля заполнены!");
         return;
