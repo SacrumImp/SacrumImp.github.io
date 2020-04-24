@@ -1,0 +1,133 @@
+.mainB{
+    margin: 0px; 
+    display: block;
+    background-color: #fffccc;
+}
+
+.headblock{
+    display: flex;
+    background-color:  #0033FF;
+    border-radius: 5px;   
+    margin: 5px;
+    height: 35%;
+    justify-content: space-around;
+    border: 2px solid #003366;
+}
+
+.headtitle{
+    margin: inherit;
+    padding: 1%;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: grey 2px 2px 3px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.picture{
+    padding: 1%;
+    margin: 2%;
+}
+
+.findblock{
+    display: flex;
+    background-color:  #0033FF;
+    border-radius: 5px;
+    height: 15%;
+    margin: 5px;
+    justify-content: space-around;
+    border: 2px solid #003366;
+}
+
+.find{
+    margin: 4%;
+    width: 40%;
+    border: hidden;
+    font-size: 23px;
+}
+
+.myButton{
+    margin: 3%;
+    background-color: #FFCC00;
+    border-width: 1.5px;
+    border-color: RGB(255,217,46);
+    border-radius: 5px;
+    width: 20%;
+}
+.textButton{
+    margin: 3%;
+    font-size: 23px;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: grey 1px 1px 3px;
+    white-space: nowrap;
+}
+
+.myButton:hover {
+    background-color: whitesmoke;
+}
+
+.myButton:hover .textButton{
+    color: #FFCC66;
+    text-shadow: #CC9933 1px 1px 1px;
+}
+
+.findText{
+    margin: 3%;
+    font-size: 23px;
+    color: #FFCC66;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: #CC9933 1px 1px 4px;
+    white-space: nowrap;
+}
+
+.cityblock{
+    display: flex;
+    border-radius: 5px;   
+    margin: 5px;
+    height: 35%;
+    justify-content: space-around;
+    background-color:  #3366FF;
+    flex-direction: row-reverse;
+}
+
+/* Стили для элементов блоков городов */
+
+.weathText{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #99CCFF;
+    text-shadow: grey 1px 1px 3px;
+    margin-top: 4%;
+}
+
+.weathImg{
+    margin: 1%;
+}
+
+/* Медиа запросы */
+
+@media screen and (max-width: 600px) {
+    p{font-size: 45px; margin-top: 0px; padding: 0px;}
+    .headtitle{height: 40%;}
+    .findText{font-size: 18px; margin-top: 4%;}
+    .textButton{font-size: 16px;}
+    .weathText{font-size: 16px;}
+    .picture{margin-top: 4%;}
+}
+
+@media screen and (min-width: 600px) {
+    p{font-size: 55px;}
+    .headtitle{height: 40%;}
+    .findText{font-size: 28px; margin-top: 2.75%;}
+    .weathText{margin-top: 2.5%; font-size: 22px;}
+}
+
+@media screen and (min-width: 1000px) {
+    p{font-size: 80px;}
+    .headtitle{height: 40%;} 
+    .find{margin: 3%}
+    .weathText{margin-top: 1.75%;}
+}
