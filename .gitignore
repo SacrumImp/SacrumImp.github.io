@@ -4,3 +4,6 @@
 
 .history/
 node_modules
+
+dz/public
+dz/src
